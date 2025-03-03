@@ -20,6 +20,11 @@ Clone the repository:
 ```sh
 git clone https://github.com/Kazuha787/Aida-Bot.git
 ```
+Directory 
+```sh
+cd Aida-Bot
+```
+
 Install Dependency 
 ```sh
 npm install ethers
