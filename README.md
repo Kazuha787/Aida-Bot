@@ -26,7 +26,7 @@ npm install ethers
 ```
 Run The Bot
 ```sh
-node Aida.js
+node aida.js
 ```
 
 This `README.md` is well-structured and provides clear instructions. Let me know if you want any modifications!
