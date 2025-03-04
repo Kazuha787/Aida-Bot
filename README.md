@@ -18,11 +18,11 @@ Aisa Bot is an advanced automation tool designed to streamline referral-based ac
 
 Clone the repository:  
 ```sh
-git clone https://github.com/Kazuha787/Aida-Bot.git
+git clone https://github.com/Kazuha787/Aida-BotV2.git
 ```
 Directory 
 ```sh
-cd Aida-Bot
+cd Aida-BotV2
 ```
 
 Install Dependency 
