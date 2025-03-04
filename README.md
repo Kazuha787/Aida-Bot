@@ -27,11 +27,69 @@ cd Aida-BotV2
 
 Install Dependency 
 ```sh
-npm install ethers
+npm install 
 ```
 Run The Bot
 ```sh
-node aida.js
+node main.js
 ```
+
+## Setup
+
+1. **Open `refs.txt`:**
+
+   Open a file named `refs.txt` in the project directory and add one referral code per line.
+
+   Example:
+   ```
+   REFERRAL_CODE_1
+   REFERRAL_CODE_2
+   REFERRAL_CODE_3
+   ```
+
+2. **Create `proxies.txt` (Optional but recommended):**
+
+   Create a file named `proxies.txt` in the project directory and add one proxy URL per line.
+
+   Example:
+   ```
+   http://username:password@proxy1.example.com:port
+   http://username:password@proxy2.example.com:port
+   ```
+
+## Usage
+
+To run the script, execute:
+
+- Multi Referral
+```bash
+node multi.js
+```
+- Single Referral
+```bash
+node main.js
+```
+- Auto Task using token // use this if there's a new task, you can simply find the taskid through Network Tab and replace the Id's, I do that so its way safer
+```bash
+node autotask.js
+```
+- Auto Extract Referral Code from `accounts.txt`
+```bash
+node refcodeextractor.js
+```
+
+
+## Customization
+
+- **Task IDs:**  
+  The four mission IDs are hardcoded in the script. You can update or add more as needed.
+
+## License
+
+This project is licensed under the MIT License.
+
+## Disclaimer
+
+Use at your risk, all risk are borne with the user.
 
 This `README.md` is well-structured and provides clear instructions. Let me know if you want any modifications!
