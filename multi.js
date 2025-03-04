@@ -10,8 +10,8 @@ const chalk = require('chalk').default;
 function printBanner() {
   console.log(chalk.cyan(`
 ╔════════════════════════════════════════════════════╗
-║                 Aida AUTO BOT                   ║
-║         Automate your Aida registration!        ║
+║                    Aida AUTO BOT                   ║
+║            Automate your Aida registration!        ║
 ║    Developed by: https://t.me/Offical_Im_kazuha    ║
 ║    GitHub: https://github.com/Kazuha787            ║
 ╠════════════════════════════════════════════════════╣
